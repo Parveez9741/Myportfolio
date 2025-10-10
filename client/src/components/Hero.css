@@ -1,0 +1,115 @@
+/* Base Styles */
+.portfolio-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif; /* Unique Google Font */
+  padding: 20px;
+  position: relative;
+  background-color: transparent; /* Transparent background */
+}
+
+/* Hero Content Section */
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Space between image and text */
+  flex-wrap: wrap;
+  justify-content: space-between; /* Push image right, text left */
+}
+
+/* Circular Image Container */
+.image-wrapper {
+  position: relative;
+}
+
+.circular-image-container {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 40px rgba(255, 0, 255, 0.7);
+  background: radial-gradient(circle, rgba(255, 0, 255, 0.5) 0%, rgba(0, 0, 0, 0) 60%);
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Skill Icons */
+.skill-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Specific Glows */
+.skill-js { box-shadow: 0 0 15px #f0db4f, 0 0 20px #f0db4f; border-color: #f0db4f; }
+.skill-html { box-shadow: 0 0 15px #e34c26, 0 0 20px #e34c26; border-color: #e34c26; }
+.skill-react { box-shadow: 0 0 15px #61dafb, 0 0 20px #61dafb; border-color: #61dafb; }
+
+/* Icon positions around the circle */
+.top-left { top: 30px; left: -20px; }
+.top-right { top: 30px; right: -20px; }
+.bottom-right { bottom: 20px; right: 80px; }
+
+/* Text next to the image */
+.hero-text {
+  max-width: 450px;
+}
+
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0 0 15px;
+  color:white;
+}
+.hero-text .Highlight {
+  color:  #f472b6; /* purple highlight */
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.hero-description {
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #c5b0ff;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column-reverse; /* On small screens, text above image */
+    gap: 30px;
+    text-align: center;
+  }
+
+  .circular-image-container {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .skill-icon { width: 40px; height: 40px; }
+  .hero-text h1 { font-size: 2rem; }
+  .hero-text p { font-size: 1rem; }
+  .hero-description { font-size: 0.9rem; }
+}
