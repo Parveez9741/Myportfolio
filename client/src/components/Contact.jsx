@@ -15,7 +15,7 @@ export default function Contact() {
     e.preventDefault();
     try {
       // Use your Render backend URL after deployment
-      await axios.post("https://myportfolio-backend-0yzo.onrender.com/api/users", form);
+      await axios.post("https://myportfolio-backend-8uui.onrender.com/api/users", form);
 
       setStatus("✅ Message sent successfully!");
       setForm({ name: "", email: "", message: "" });
