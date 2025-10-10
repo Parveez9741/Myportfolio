@@ -1,6 +1,6 @@
 // src/components/Resume.jsx
 import "./Resume.css";
-import resumePDF from "../assets/Parveez New Resume.pdf"; // Add your PDF file in assets
+import resumePDF from "../assets/Parveez updated new.pdf"; // Add your PDF file in assets
 
 export default function Resume() {
   return (
