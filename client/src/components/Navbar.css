@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   padding: 15px 40px;
-  background-color: rgba(248, 246, 246, 0.127); /* Transparent dark background */
+ background-color: rgba(21, 12, 103, 0.956); /* Transparent dark background */
   position: fixed;
   top: 0;
   right: 0;
@@ -81,7 +81,7 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(21, 12, 103, 0.956);
     flex-direction: column;
     gap: 15px;
     padding: 20px;

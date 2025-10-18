@@ -1,7 +1,7 @@
 /* src/components/Resume.css */
 .resume-section {
   padding: 80px 20px;
-  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  background-color: rgba(0,0,0,0.5); /* semi-transparent */
   backdrop-filter: blur(6px); /* frosted effect */
   color: white; /* text visible on dark background */
   border-radius: 15px;
