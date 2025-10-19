@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   padding: 15px 40px;
- background-color: rgba(21, 12, 103, 0.956); /* Transparent dark background */
+ background-color: rgba(60, 14, 25, 0.874); /* Transparent dark background */
   position: fixed;
   top: 0;
   right: 0;
@@ -28,7 +28,7 @@
 }
 
 .nav-links li a {
-  color: #f472b6; /* Pinkish purple */
+  color: white; /* Pinkish purple */
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -54,14 +54,14 @@
 .hamburger div {
   width: 25px;
   height: 3px;
-  background-color: #f472b6;
+  background-color: white;
   border-radius: 2px;
 }
 /* Brand Name on the left */
 .brand {
-  font-size: 1.2 rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  color: #f472b6; /* Matches nav links */
+  color: white; /* Matches nav links */
   cursor: pointer;
   letter-spacing: 1px;
   
@@ -81,7 +81,7 @@
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: rgba(21, 12, 103, 0.956);
+    background-color: rgba(60, 14, 25, 0.874);
     flex-direction: column;
     gap: 15px;
     padding: 20px;

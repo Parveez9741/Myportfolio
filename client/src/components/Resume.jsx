@@ -19,7 +19,6 @@ export default function Resume() {
             <h3>Education</h3>
             <ul>
               <li>Bachelor of Computer Science, P.A. College Of Engineering Mangalore , 2025</li>
-              <li>Full-Stack Web Development Courses , Zephyr Technologies Mangalore , 2025</li>
             </ul>
 
             <h3>Languages</h3>

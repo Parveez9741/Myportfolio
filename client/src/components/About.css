@@ -2,7 +2,7 @@
 .about-section {
   padding: 80px 20px;
   /* semi-transparent background */
-  color: #fff;
+  color:white;
   border-radius: 15px;
   max-width: 1000px;
   margin: 40px auto;
@@ -36,8 +36,9 @@
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #f472b6;
-  box-shadow: 0 0 30px rgba(244, 114, 182, 0.6);
+  border: 3px solid #f472b6;
+  object-position:top;
+  box-shadow: 0 0 15px rgba(244, 114, 182, 0.6);
 }
 
 /* Right side: information */
@@ -69,7 +70,7 @@
 .about-info .info-list li {
   margin-bottom: 10px;
   font-weight: 500;
-  color: #dcd6f7;
+  color:white;
 }
 
 .about-info .info-list li strong {

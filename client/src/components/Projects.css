@@ -3,7 +3,7 @@
 .projects-section {
   padding: 80px 20px;
   text-align: center;
- background-color: rgba(0,0,0,0.5); /* let the global Earth background show */
+  background: transparent; /* let the global Earth background show */
 }
 
 .projects-container h2 {
@@ -19,7 +19,7 @@
 }
 
 .project-card {
-  background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+  background: rgba(19, 12, 12, 0.719); /* semi-transparent */
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
