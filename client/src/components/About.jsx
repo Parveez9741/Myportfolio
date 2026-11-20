@@ -17,14 +17,15 @@ export default function About() {
           <div className="about-info">
             <h3>Hello, I’m <span className="highlight">Mohammed Parveez</span></h3>
             <p>
-              I am a passionate <strong>MERN Stack Developer</strong> from <strong>Mangalore, India </strong>.
+              I am a passionate <strong>MERN Stack Developer</strong> from <strong>Mangalore - India, Currently Dubai - UAE </strong>.
               <br />I specialize in building modern, responsive web applications with seamless user experiences.
             </p>
             <ul className="info-list">
-              <li><strong>Contact:</strong> +91 9741387341</li>
-              <li><strong>Email:</strong> mfarwiz1234@gmail.com</li>
+              <li><strong>Contact:</strong> +971 581957275</li>
+              <li><strong>Email:</strong> Parveez111@outlook.com</li>
               <li><strong>Education:</strong> Bachelor of Computer Science, P.A College Of Engineering Mangalore, 2025</li>
               <li><strong>Experience:</strong> Full-Stack Web Developer Trainee , Zephyr Technologies Mangalore , 2025</li>
+              <li><strong>Experience:</strong> Frontend Web Developer , Zintronics Technologies Mangalore , 2026</li>
             </ul>
             <p>
               I am dedicated to crafting scalable and efficient web solutions, and I love turning complex problems into elegant designs.
