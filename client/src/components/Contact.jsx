@@ -67,7 +67,7 @@ export default function Contact() {
         {status && <p className="form-status">{status}</p>}
 
         <div className="social-icons">
-          <a href="https://www.instagram.com/parvee___z/" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://www.instagram.com/parvee__z/" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaInstagram size={25} />
           </a>
 
