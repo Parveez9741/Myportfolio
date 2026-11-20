@@ -71,7 +71,7 @@ export default function Contact() {
             <FaInstagram size={25} />
           </a>
 
-          <a href="https://wa.me/+971 581957275" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://wa.me/+971581957275" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaWhatsapp size={25} />
           </a>
 
